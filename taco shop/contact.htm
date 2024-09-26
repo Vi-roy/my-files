@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Roy">
+    <meta name="description" content="contact information for The Little Taco Shop">
+    <title>Contact us LTS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1> Contact Us</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.htm">Home</a>
+                </li>
+                <li>
+                    <a href="./index.htm#about">About <abbr title="The Little Taco Shop">TLS</abbr></a>
+                </li>
+                <li>
+                    <a href="./index.htm#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="./hours.htm">Hours</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="./css images/tanya-yarosh-ZByCF-zdeRs-unsplash.jpg" alt="Little Taco Shop Tacos" title="Tacos ready to eat" width="400" height="260">
+            <figcaption>
+                Little Taco Shop Tacos
+            </figcaption>
+        </figure>
+    </header>
+    <br>
+    <main>
+        <section>
+        <h2>Our Contact Form</h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Send Us A Message</legend>
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="name" id="email" placeholder="Your Email" required>
+                </p>
+                <p>
+                    <label for="Message">Your Message</label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10 placeholder">Type your message</textarea>
+                </p>
+            </fieldset>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </form>
+     </section>
+     <section>
+        <h2>Our Location</h2>
+        <address>
+            23 rayfield road jos <br>
+            Plateau Stat. 
+            <br><br>
+            Phone: <a href="tel+ 7625788653">363556728852</a>
+        </address>
+     </section>
+    </main>
+    <br>
+    <footer>
+        <p>Copyright &copy;</p>
+    </footer>
+</body>
+</html>
